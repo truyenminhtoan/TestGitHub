@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UILabel *lb=[[UILabel alloc]initWithFrame:CGRectMake(10, 10, 10, 10)];
+    lb.text=@"ALO";
 }
 
 - (void)didReceiveMemoryWarning {
